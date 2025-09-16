@@ -1,0 +1,68 @@
+/* Centering the entire sign-up page */
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;
+    background-color: #fefefe; /* Light background */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling for the BookFlix logo */
+.bookflix-logo h1 {
+    font-size: 48px;
+    font-family: 'Georgia', serif;
+    color: #f44336; /* Red color for BookFlix */
+    margin-bottom: 30px; /* Space between the logo and form */
+}
+
+/* Styling for the sign-up form */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px; /* Max width of the form */
+}
+
+/* Styling for input fields */
+.signup-form .MuiTextField-root {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* Error message style */
+.signup-form .error-message {
+    color: #f44336; /* Red color for error */
+    font-size: 0.875rem;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.signup-form .MuiButton-root {
+    background-color: #f44336; /* Red background for the button */
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.signup-form .MuiButton-root:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Responsive design: Ensure that the form is centered on smaller screens */
+@media (max-width: 600px) {
+    .signup-form {
+        width: 90%;
+        padding: 20px;
+    }
+}

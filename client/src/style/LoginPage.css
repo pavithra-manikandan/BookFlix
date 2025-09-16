@@ -1,0 +1,87 @@
+/* Centering the entire login page */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;
+    background-color: #f4f4f4;  /* Light background */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling for the BookFlix logo */
+  .bookflix-logo h1 {
+    font-size: 48px;
+    font-family: 'Georgia', serif;
+    color: #f44336; /* Red color for BookFlix */
+    margin-bottom: 30px; /* Space between the logo and form */
+  }
+  
+  /* Styling for the login form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px; /* Max width of the form */
+  }
+  
+  /* Styling for input fields */
+  .input-group input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px; /* Limit the input width */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Button Styling */
+  .button-group button, .signup-link button {
+    background-color: #f44336; /* Red button */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Space between buttons */
+    width: 100%; /* Full width for buttons */
+    max-width: 300px; /* Limit the button width */
+  }
+  
+  .button-group button:hover, .signup-link button:hover {
+    background-color: #c00000; /* Darker red on hover */
+  }
+  
+  /* Signup Button Styling */
+  .signup-link {
+    margin-top: 20px;
+  }
+  
+  .signup-link button {
+    background-color: #f44336; /* Red background */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+  }
+  
+  .signup-link button:hover {
+    background-color: #c00000; /* Darker red on hover */
+  }
+  

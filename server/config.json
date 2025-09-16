@@ -1,0 +1,9 @@
+{
+  "rds_host": "database-1.cyfv4zxoeozx.us-east-1.rds.amazonaws.com",
+  "rds_port": "5432",
+  "rds_user": "nelamaran",
+  "rds_password": "dbms11082024%",
+  "rds_db": "bookflix",
+  "server_host": "localhost",
+  "server_port": "8080"
+}
