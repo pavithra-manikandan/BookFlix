@@ -12,6 +12,11 @@ const LoginPage = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
+    if (process.env.NODE_ENV === "development") {
+      localStorage.setItem("token", "fake-dev-token");
+      navigate("/home");
+      return;
+    }
     setError(''); // Clear any previous error messages
 
     try {
